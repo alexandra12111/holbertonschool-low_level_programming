@@ -35,6 +35,6 @@ while (yup->next != NULL)
 {
 yup = yup->next;
 }
-yup->next = yup;
+yup->next = yep;
 return (yup);
 }
