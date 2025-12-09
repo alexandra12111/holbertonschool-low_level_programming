@@ -32,7 +32,9 @@ return (yep);
 }
 yup = *head;
 while (yup->next != NULL)
+{
 yup = yup->next;
+}
 yup->next = yup;
 return (yup);
 }
