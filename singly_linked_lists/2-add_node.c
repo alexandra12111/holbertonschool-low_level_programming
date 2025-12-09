@@ -1,5 +1,4 @@
-
-0;10;1c#include "lists.h"
+#include "lists.h"
 
 /**
  * add_node - add node i suppose
