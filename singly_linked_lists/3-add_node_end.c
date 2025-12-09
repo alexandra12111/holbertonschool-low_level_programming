@@ -25,7 +25,7 @@ for (yap = 0; str[yap]; yap++)
 ;
 yep->len = yap;
 yep->next = NULL;
-if (*head = NULL)
+if (*head == NULL)
 {
 *head = yep;
 return (yep);
