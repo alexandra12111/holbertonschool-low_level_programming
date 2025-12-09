@@ -1,4 +1,5 @@
-#include "lists.h"
+
+0;10;1c#include "lists.h"
 
 /**
  * add_node - add node i suppose
@@ -17,7 +18,7 @@ return (NULL);
 alex->str = strdup(str);
 if (alex->str == NULL)
 {
-free(alex)
+free(alex);
 return (NULL);
 }
 for (ale = 0; str[ale]; ale++)
